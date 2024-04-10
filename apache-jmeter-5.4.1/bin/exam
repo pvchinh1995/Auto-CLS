@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="incoming.telemetry.mozilla.org:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1280" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="26" it="0" lt="0" ct="14" ts="1624940740576" s="true" lb="-636" rc="204" rm="No Content" tn="" dt="" de="" by="226" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:38 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: authorization,content-type
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: authorization,content-type
+Access-Control-Request-Method: POST
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/user/logout</java.net.URL>
+</httpSample>
+<httpSample t="135" it="0" lt="135" ct="12" ts="1624940740606" s="true" lb="-637" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="259" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:39 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 68
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5MzczMDUsImV4cCI6MTYyNDk0MDkwNSwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTM3MzA1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiJERkM1Mzc3MzZFRUNGNDI3N0FDOTZCQjFBQTcwOUE3MiIsImlhdCI6MTYyNDkzNzMwNSwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.P0Vq2VcgO8InWKq3fbQWYKkxolbeCE05RHcm3ZiEqT0RFJ6ATEOTLo01HZg1PMJ1ouuZET_MkysrzT2yP_8p_9q_UEHC0_ESBvpYUJtuOYXFbP1AN8nt8hNLmMTITcG0M0Wh77RGht6ZdwOMvX8GEPiuDooS-7mkvvCC-53u2J1gucYLxgj5WLmaBIIOXlyKwX-Nbs2M7n9x_V5-sHDNjlLGN6UpeFWHJHG38n0be7R-XOU0SLWxrklypfpIEzI-Oy9YlVQG8aEpPkotQnvXr0icNLbyzo_8VD9XiiLrDG0ZJuh9WY3tuEYr4rzvOWxapKxf2oyzP1Ccajcuf7u9bQ
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Content-Type: application/json;charset=utf-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+Content-Length: 22
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:true,&quot;errors&quot;:null,&quot;message&quot;:&quot;USR_LogoutSuccess&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;returnUrl&quot;:&quot;string&quot;}</queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/user/logout</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="0" ct="18" ts="1624940745833" s="true" lb="-638" rc="204" rm="No Content" tn="" dt="" de="" by="212" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:44 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: content-type
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: content-type
+Access-Control-Request-Method: POST
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/user/login</java.net.URL>
+</httpSample>
+<httpSample t="1103" it="0" lt="1103" ct="13" ts="1624940745877" s="true" lb="-639" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="2168" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:45 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 1975
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Content-Type: application/json;charset=utf-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+Content-Length: 55
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:{&quot;accessToken&quot;:&quot;eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA&quot;,&quot;refreshToken&quot;:&quot;4BAF4B3977FB22224E4FBF62495E8DC66FE9BAE508D1396DD78D14F24A32F6FE&quot;,&quot;expiresIn&quot;:3600,&quot;userProfile&quot;:{&quot;avatar&quot;:&quot;&quot;,&quot;email&quot;:&quot;pvc@gmail.com&quot;,&quot;firstName&quot;:&quot;Thí Sinh&quot;,&quot;id&quot;:571,&quot;lastName&quot;:&quot;Phạm&quot;,&quot;userName&quot;:&quot;pvc123&quot;,&quot;roles&quot;:[{&quot;id&quot;:4,&quot;name&quot;:&quot;Role.Learner&quot;,&quot;router&quot;:&quot;dashboard-students&quot;}]}},&quot;errors&quot;:null,&quot;message&quot;:&quot;USR_LoginSuccess&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;email&quot;:&quot;pvc123&quot;,&quot;password&quot;:&quot;123456&quot;,&quot;remember&quot;:false}</queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/user/login</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="picsum.photos:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1280" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT picsum.photos:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdn.pixabay.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1280" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdn.pixabay.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="28" it="0" lt="0" ct="14" ts="1624940747304" s="true" lb="-641" rc="204" rm="No Content" tn="" dt="" de="" by="212" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:45 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: authorization
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: authorization
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/menu/get-menu-by-role?id=4</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="0" ct="13" ts="1624940747311" s="true" lb="-644" rc="204" rm="No Content" tn="" dt="" de="" by="212" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:45 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: authorization
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: authorization
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/menu/get-menu-by-role?id=4</java.net.URL>
+</httpSample>
+<httpSample t="119" it="0" lt="119" ct="15" ts="1624940747343" s="true" lb="-646" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1525" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:46 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 1332
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:[{&quot;title&quot;:&quot;menu.my-education-program&quot;,&quot;icon&quot;:&quot;BookIcon&quot;,&quot;children&quot;:[{&quot;title&quot;:&quot;menu.learning-content&quot;,&quot;route&quot;:&quot;learning-content&quot;,&quot;icon&quot;:&quot;ListIcon&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;},{&quot;title&quot;:&quot;menu.my-course&quot;,&quot;route&quot;:&quot;list-course&quot;,&quot;icon&quot;:&quot;ListIcon&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;},{&quot;title&quot;:&quot;menu.my-exam&quot;,&quot;route&quot;:&quot;list-my-exam&quot;,&quot;icon&quot;:&quot;icon-graduate&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;},{&quot;title&quot;:&quot;common.learning-route&quot;,&quot;route&quot;:null,&quot;icon&quot;:&quot;BookOpenIcon&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;},{&quot;title&quot;:&quot;menu.my-survey&quot;,&quot;route&quot;:null,&quot;icon&quot;:&quot;Edit3Icon&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;},{&quot;title&quot;:&quot;menu.learning-history&quot;,&quot;route&quot;:null,&quot;icon&quot;:&quot;ClockIcon&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;}]},{&quot;title&quot;:&quot;common.application&quot;,&quot;icon&quot;:&quot;Share2Icon&quot;,&quot;children&quot;:[{&quot;title&quot;:&quot;common.calendar&quot;,&quot;route&quot;:&quot;calendar&quot;,&quot;icon&quot;:&quot;CalendarIcon&quot;,&quot;groupIcon&quot;:&quot;Share2Icon&quot;,&quot;groupName&quot;:&quot;common.application&quot;},{&quot;title&quot;:&quot;common.library&quot;,&quot;route&quot;:null,&quot;icon&quot;:&quot;icon-library&quot;,&quot;groupIcon&quot;:&quot;Share2Icon&quot;,&quot;groupName&quot;:&quot;common.application&quot;},{&quot;title&quot;:&quot;common.forum&quot;,&quot;route&quot;:null,&quot;icon&quot;:&quot;GlobeIcon&quot;,&quot;groupIcon&quot;:&quot;Share2Icon&quot;,&quot;groupName&quot;:&quot;common.application&quot;}]}],&quot;errors&quot;:null,&quot;message&quot;:&quot;&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/menu/get-menu-by-role?id=4</java.net.URL>
+</httpSample>
+<httpSample t="141" it="0" lt="141" ct="15" ts="1624940747335" s="true" lb="-645" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1525" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:46 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 1332
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:[{&quot;title&quot;:&quot;menu.my-education-program&quot;,&quot;icon&quot;:&quot;BookIcon&quot;,&quot;children&quot;:[{&quot;title&quot;:&quot;menu.learning-content&quot;,&quot;route&quot;:&quot;learning-content&quot;,&quot;icon&quot;:&quot;ListIcon&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;},{&quot;title&quot;:&quot;menu.my-course&quot;,&quot;route&quot;:&quot;list-course&quot;,&quot;icon&quot;:&quot;ListIcon&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;},{&quot;title&quot;:&quot;menu.my-exam&quot;,&quot;route&quot;:&quot;list-my-exam&quot;,&quot;icon&quot;:&quot;icon-graduate&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;},{&quot;title&quot;:&quot;common.learning-route&quot;,&quot;route&quot;:null,&quot;icon&quot;:&quot;BookOpenIcon&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;},{&quot;title&quot;:&quot;menu.my-survey&quot;,&quot;route&quot;:null,&quot;icon&quot;:&quot;Edit3Icon&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;},{&quot;title&quot;:&quot;menu.learning-history&quot;,&quot;route&quot;:null,&quot;icon&quot;:&quot;ClockIcon&quot;,&quot;groupIcon&quot;:&quot;BookIcon&quot;,&quot;groupName&quot;:&quot;menu.my-education-program&quot;}]},{&quot;title&quot;:&quot;common.application&quot;,&quot;icon&quot;:&quot;Share2Icon&quot;,&quot;children&quot;:[{&quot;title&quot;:&quot;common.calendar&quot;,&quot;route&quot;:&quot;calendar&quot;,&quot;icon&quot;:&quot;CalendarIcon&quot;,&quot;groupIcon&quot;:&quot;Share2Icon&quot;,&quot;groupName&quot;:&quot;common.application&quot;},{&quot;title&quot;:&quot;common.library&quot;,&quot;route&quot;:null,&quot;icon&quot;:&quot;icon-library&quot;,&quot;groupIcon&quot;:&quot;Share2Icon&quot;,&quot;groupName&quot;:&quot;common.application&quot;},{&quot;title&quot;:&quot;common.forum&quot;,&quot;route&quot;:null,&quot;icon&quot;:&quot;GlobeIcon&quot;,&quot;groupIcon&quot;:&quot;Share2Icon&quot;,&quot;groupName&quot;:&quot;common.application&quot;}]}],&quot;errors&quot;:null,&quot;message&quot;:&quot;&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/menu/get-menu-by-role?id=4</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="0" ct="13" ts="1624940752182" s="true" lb="-649" rc="304" rm="Not Modified" tn="" dt="" de="" by="176" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Server: nginx/1.20.1
+Date: Tue, 29 Jun 2021 04:25:51 GMT
+Last-Modified: Mon, 28 Jun 2021 09:06:42 GMT
+Connection: close
+ETag: &quot;60d99122-429e&quot;
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/students/list-exam
+If-Modified-Since: Mon, 28 Jun 2021 09:06:42 GMT
+If-None-Match: &quot;60d99122-429e&quot;
+Accept-Language: en-US,en;q=0.5
+Host: kinhdoanh.cloudlms.top
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: image/webp,*/*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://kinhdoanh.cloudlms.top/img/empty-table.d51e16eb.svg</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="0" ct="11" ts="1624940752245" s="true" lb="-650" rc="204" rm="No Content" tn="" dt="" de="" by="226" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:50 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: authorization,content-type
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: authorization,content-type
+Access-Control-Request-Method: POST
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/myexam/get-paging-exam</java.net.URL>
+</httpSample>
+<httpSample t="120" it="0" lt="120" ct="12" ts="1624940752280" s="true" lb="-651" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="858" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:51 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 666
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Content-Type: application/json;charset=utf-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+Content-Length: 27
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:[{&quot;id&quot;:30,&quot;code&quot;:&quot;chinh286&quot;,&quot;name&quot;:&quot;Kỳ thi chiều 28/6 Chính tạo&quot;,&quot;description&quot;:&quot;test&quot;,&quot;startDate&quot;:&quot;2021-06-28T14:40:00&quot;,&quot;endDate&quot;:&quot;2021-06-30T12:00:00&quot;,&quot;statusId&quot;:4,&quot;statusName&quot;:&quot;QuestionService.ExamActive&quot;},{&quot;id&quot;:34,&quot;code&quot;:&quot;test&quot;,&quot;name&quot;:&quot;Kỳ thi không ca&quot;,&quot;description&quot;:&quot;test&quot;,&quot;startDate&quot;:&quot;2021-06-28T16:45:00&quot;,&quot;endDate&quot;:&quot;2021-06-30T12:00:00&quot;,&quot;statusId&quot;:4,&quot;statusName&quot;:&quot;QuestionService.ExamActive&quot;},{&quot;id&quot;:37,&quot;code&quot;:&quot;toi286&quot;,&quot;name&quot;:&quot;Kỳ thi tối 28/6 chính tạo&quot;,&quot;description&quot;:&quot;test&quot;,&quot;startDate&quot;:&quot;2021-06-28T20:40:00&quot;,&quot;endDate&quot;:&quot;2021-06-30T12:00:00&quot;,&quot;statusId&quot;:4,&quot;statusName&quot;:&quot;QuestionService.ExamActive&quot;}],&quot;errors&quot;:null,&quot;message&quot;:&quot;&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;searchData&quot;:&quot;&quot;,&quot;sort&quot;:[]}</queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/myexam/get-paging-exam</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="0" ct="12" ts="1624940758200" s="true" lb="-653" rc="204" rm="No Content" tn="" dt="" de="" by="226" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:56 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: authorization,content-type
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: authorization,content-type
+Access-Control-Request-Method: POST
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/myexam/get-paging-test-exam</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="0" ct="13" ts="1624940758198" s="true" lb="-652" rc="204" rm="No Content" tn="" dt="" de="" by="226" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:56 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: authorization,content-type
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: authorization,content-type
+Access-Control-Request-Method: POST
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/myexam/get-paging-test-exam</java.net.URL>
+</httpSample>
+<httpSample t="133" it="0" lt="133" ct="13" ts="1624940758234" s="true" lb="-655" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="467" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:57 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 275
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Content-Type: application/json;charset=utf-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+Content-Length: 50
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:[{&quot;testCodeId&quot;:45,&quot;testId&quot;:33,&quot;name&quot;:&quot;A&quot;,&quot;minuteOfWork&quot;:3,&quot;testPoint&quot;:0.0,&quot;startDate&quot;:&quot;2021-06-28T16:45:00&quot;,&quot;endDate&quot;:&quot;2021-06-30T12:00:00&quot;,&quot;isComplete&quot;:false,&quot;isPassed&quot;:false,&quot;isIncident&quot;:false,&quot;displayFirstTestCodeTime&quot;:30.0}],&quot;errors&quot;:null,&quot;message&quot;:&quot;&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;typeId&quot;:1,&quot;examId&quot;:34,&quot;searchData&quot;:&quot;&quot;,&quot;sort&quot;:[]}</queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/myexam/get-paging-test-exam</java.net.URL>
+</httpSample>
+<httpSample t="192" it="0" lt="192" ct="14" ts="1624940758234" s="true" lb="-654" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="466" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:25:57 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 274
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Content-Type: application/json;charset=utf-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+Content-Length: 50
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:[{&quot;testCodeId&quot;:45,&quot;testId&quot;:33,&quot;name&quot;:&quot;A&quot;,&quot;minuteOfWork&quot;:3,&quot;testPoint&quot;:0.0,&quot;startDate&quot;:&quot;2021-06-28T16:45:00&quot;,&quot;endDate&quot;:&quot;2021-06-30T12:00:00&quot;,&quot;isComplete&quot;:true,&quot;isPassed&quot;:false,&quot;isIncident&quot;:false,&quot;displayFirstTestCodeTime&quot;:30.0}],&quot;errors&quot;:null,&quot;message&quot;:&quot;&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;typeId&quot;:2,&quot;examId&quot;:34,&quot;searchData&quot;:&quot;&quot;,&quot;sort&quot;:[]}</queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/myexam/get-paging-test-exam</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="0" ct="12" ts="1624940763426" s="true" lb="-656" rc="204" rm="No Content" tn="" dt="" de="" by="212" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:01 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: authorization
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: authorization
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/examtest/get-examinee-info?testId=33&amp;shiftId=0</java.net.URL>
+</httpSample>
+<httpSample t="108" it="0" lt="108" ct="11" ts="1624940763453" s="true" lb="-657" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="705" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:02 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 513
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:{&quot;exemineeId&quot;:373,&quot;examId&quot;:34,&quot;examName&quot;:&quot;Kỳ thi không ca&quot;,&quot;description&quot;:&quot;test&quot;,&quot;testCodeId&quot;:45,&quot;testId&quot;:33,&quot;testName&quot;:&quot;A&quot;,&quot;testShiftId&quot;:null,&quot;testShiftName&quot;:null,&quot;startTime&quot;:&quot;2021-06-28T16:45:00&quot;,&quot;endTime&quot;:&quot;2021-06-30T12:00:00&quot;,&quot;minuteOfWork&quot;:3,&quot;isCorrectAnswer&quot;:true,&quot;totalQuestionDisplayInPage&quot;:11,&quot;isDisplayResult&quot;:true,&quot;writeLogMinute&quot;:1,&quot;totalQuestion&quot;:11,&quot;examineeStartTime&quot;:null,&quot;testCodeFile&quot;:&quot;445637cc-c9be-4cc2-b7e4-8e984b900069&quot;,&quot;isPreserveTime&quot;:true},&quot;errors&quot;:null,&quot;message&quot;:&quot;&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/examtest/get-examinee-info?testId=33&amp;shiftId=0</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="0" ct="15" ts="1624940763576" s="true" lb="-658" rc="204" rm="No Content" tn="" dt="" de="" by="217" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Server: nginx/1.16.1
+Date: Tue, 29 Jun 2021 04:26:02 GMT
+Connection: close
+Access-Control-Allow-Headers: authorization
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: sf.ectapps.net
+Access-Control-Request-Headers: authorization
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://sf.ectapps.net/api/File/exam/445637cc-c9be-4cc2-b7e4-8e984b900069</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="12" ts="1624940763611" s="true" lb="-659" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="13693" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.16.1
+Date: Tue, 29 Jun 2021 04:26:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 13494
+Connection: close
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: sf.ectapps.net
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;:&quot;[{\&quot;id\&quot;:3425,\&quot;questionGroupContent\&quot;:\&quot;\&quot;,\&quot;isQuestionGroup\&quot;:false,\&quot;isMark\&quot;:false,\&quot;listQuestions\&quot;:[{\&quot;questionId\&quot;:3425,\&quot;unitPoint\&quot;:1,\&quot;content\&quot;:\&quot;\\u003Cp\\u003EB\\u1ED9 phim \\u0022Ch\\u1ECB D\\u1EADu\\u0022 \\u0111\\u01B0\\u1EE3c chuy\\u1EC3n th\\u1EC3 t\\u1EEB t\\u00E1c ph\\u1EA9m v\\u0103n h\\u1ECDc n\\u00E0o?\\u003C/p\\u003E\&quot;,\&quot;questionTypeId\&quot;:1,\&quot;isCorrect\&quot;:false,\&quot;answers\&quot;:[{\&quot;answerId\&quot;:13042,\&quot;content\&quot;:\&quot;V\\u1EE3 ch\\u1ED3ng A Ph\\u1EE7\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13018,\&quot;content\&quot;:\&quot;Ng\\u01B0\\u1EDDi m\\u1EB9 c\\u1EA7m s\\u00FAng\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13016,\&quot;content\&quot;:\&quot;2 \\u0110\\u1EE9a tr\\u1EBB\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:4,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13015,\&quot;content\&quot;:\&quot;T\\u1EAFt \\u0111\\u00E8n\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:3,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;}]}]},{\&quot;id\&quot;:3424,\&quot;questionGroupContent\&quot;:\&quot;\\u003Cp\\u003E\\u0110\\u1ED9i b\\u00F3ng \\u0111\\u00E1 Nam Vi\\u1EC7t Nam\\u003C/p\\u003E\&quot;,\&quot;isQuestionGroup\&quot;:true,\&quot;isMark\&quot;:false,\&quot;listQuestions\&quot;:[{\&quot;questionId\&quot;:3423,\&quot;unitPoint\&quot;:2,\&quot;content\&quot;:\&quot;\\u003Cp\\u003EGi\\u1EA3i b\\u00F3ng \\u0111\\u00E1 U23 Ch\\u00E2u \\u00C1 n\\u0103m 2018 Vi\\u1EC7t Nam x\\u1EBFp th\\u1EE9 m\\u1EA5y\\u003C/p\\u003E\&quot;,\&quot;questionTypeId\&quot;:1,\&quot;isCorrect\&quot;:false,\&quot;answers\&quot;:[{\&quot;answerId\&quot;:13014,\&quot;content\&quot;:\&quot;Th\\u1EE9 3\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13013,\&quot;content\&quot;:\&quot;Th\\u1EE9 1\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13012,\&quot;content\&quot;:\&quot;Th\\u1EE9 2\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:3,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13011,\&quot;content\&quot;:\&quot;Th\\u1EE9 4\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:4,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;}]},{\&quot;questionId\&quot;:3422,\&quot;unitPoint\&quot;:2,\&quot;content\&quot;:\&quot;\\u003Cp\\u003E\\u0110\\u00E2u l\\u00E0 t\\u00EAn c\\u1EA7u th\\u1EE7 \\u0111\\u1ED9i tuy\\u1EC3n b\\u00F3ng \\u0111\\u00E1 nam VI\\u1EC7t Nam\\u003C/p\\u003E\&quot;,\&quot;questionTypeId\&quot;:2,\&quot;isCorrect\&quot;:false,\&quot;answers\&quot;:[{\&quot;answerId\&quot;:13010,\&quot;content\&quot;:\&quot;Quang H\\u1EA3i\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13009,\&quot;content\&quot;:\&quot;Xu\\u00E2n Tr\\u01B0\\u1EDDng\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13008,\&quot;content\&quot;:\&quot;Ng\\u1ECDc D\\u0169ng\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:3,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13017,\&quot;content\&quot;:\&quot;V\\u0169 H\\u00E0\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:4,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;}]}]},{\&quot;id\&quot;:3421,\&quot;questionGroupContent\&quot;:\&quot;\&quot;,\&quot;isQuestionGroup\&quot;:false,\&quot;isMark\&quot;:false,\&quot;listQuestions\&quot;:[{\&quot;questionId\&quot;:3421,\&quot;unitPoint\&quot;:1,\&quot;content\&quot;:\&quot;\\u003Cp\\u003ETrong c\\u00E1c con v\\u1EADt sau, con n\\u00E0o l\\u00E0 lo\\u00E0i b\\u00F2 s\\u00E1t\\u003C/p\\u003E\&quot;,\&quot;questionTypeId\&quot;:5,\&quot;isCorrect\&quot;:false,\&quot;answers\&quot;:[{\&quot;answerId\&quot;:13007,\&quot;content\&quot;:\&quot;Th\\u1EB1n L\\u1EB1n\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:4,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13005,\&quot;content\&quot;:\&quot;R\\u1EAFn\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13004,\&quot;content\&quot;:\&quot;D\\u01A1i\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13003,\&quot;content\&quot;:\&quot;Ng\\u1EF1a\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:3,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;}]}]},{\&quot;id\&quot;:3420,\&quot;questionGroupContent\&quot;:\&quot;\&quot;,\&quot;isQuestionGroup\&quot;:false,\&quot;isMark\&quot;:false,\&quot;listQuestions\&quot;:[{\&quot;questionId\&quot;:3420,\&quot;unitPoint\&quot;:1,\&quot;content\&quot;:\&quot;\\u003Cp\\u003EHaiku l\\u00E0 th\\u1EC3 th\\u01A1 truy\\u1EC1n th\\u1ED1ng c\\u1EE7a n\\u01B0\\u1EDBc n\\u00E0o?\\u003C/p\\u003E\&quot;,\&quot;questionTypeId\&quot;:1,\&quot;isCorrect\&quot;:false,\&quot;answers\&quot;:[{\&quot;answerId\&quot;:13002,\&quot;content\&quot;:\&quot;Nh\\u1EADt B\\u1EA3n\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13001,\&quot;content\&quot;:\&quot;Trung Qu\\u1ED1c\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13000,\&quot;content\&quot;:\&quot;Nga\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:3,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:12999,\&quot;content\&quot;:\&quot;Hy L\\u1EA1p\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:4,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;}]}]},{\&quot;id\&quot;:3419,\&quot;questionGroupContent\&quot;:\&quot;\&quot;,\&quot;isQuestionGroup\&quot;:false,\&quot;isMark\&quot;:false,\&quot;listQuestions\&quot;:[{\&quot;questionId\&quot;:3419,\&quot;unitPoint\&quot;:1,\&quot;content\&quot;:\&quot;\\u003Cp\\u003EB\\u00E1nh Kho\\u00E1i l\\u00E0 lo\\u1EA1i b\\u00E1nh n\\u1ED5i ti\\u1EBFng \\u1EDF Hu\\u1EBF?\\u003C/p\\u003E\&quot;,\&quot;questionTypeId\&quot;:4,\&quot;isCorrect\&quot;:false,\&quot;answers\&quot;:[{\&quot;answerId\&quot;:12998,\&quot;content\&quot;:null,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;}]}]},{\&quot;id\&quot;:3418,\&quot;questionGroupContent\&quot;:\&quot;\&quot;,\&quot;isQuestionGroup\&quot;:false,\&quot;isMark\&quot;:false,\&quot;listQuestions\&quot;:[{\&quot;questionId\&quot;:3418,\&quot;unitPoint\&quot;:1,\&quot;content\&quot;:\&quot;\\u003Cp\\u003E\\u0110\\u00E2u l\\u00E0 m\\u1ED9t lo\\u1EA1i h\\u00ECnh ch\\u1EE3 t\\u1EA1m t\\u1EF1 ph\\u00E1t th\\u01B0\\u1EDDng xu\\u1EA5t hi\\u1EC7n trong c\\u00E1c khu d\\u00E2n c\\u01B0?\\u003C/p\\u003E\&quot;,\&quot;questionTypeId\&quot;:1,\&quot;isCorrect\&quot;:false,\&quot;answers\&quot;:[{\&quot;answerId\&quot;:12997,\&quot;content\&quot;:\&quot;\\u1EBEch\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13006,\&quot;content\&quot;:\&quot;C\\u00F3c\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13019,\&quot;content\&quot;:\&quot;Nh\\u00E1i\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:3,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13030,\&quot;content\&quot;:\&quot;Cua\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:4,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;}]}]},{\&quot;id\&quot;:3417,\&quot;questionGroupContent\&quot;:\&quot;\&quot;,\&quot;isQuestionGroup\&quot;:false,\&quot;isMark\&quot;:false,\&quot;listQuestions\&quot;:[{\&quot;questionId\&quot;:3417,\&quot;unitPoint\&quot;:1,\&quot;content\&quot;:\&quot;\\u003Cp\\u003EHoa h\\u1EADu H\\u00F2a b\\u00ECnh Qu\\u1ED1c t\\u1EBF 2017 d\\u1EF1 ki\\u1EBFn s\\u1EBD \\u0111\\u01B0\\u1EE3c t\\u1ED5 ch\\u1EE9c t\\u1EA1i qu\\u1ED1c gia n\\u00E0o? \\u003Cspan class=\\u0022answer-fill-blank\\u0022\\u003E\\uFEFF\\u003Cspan contenteditable=\\u0022false\\u0022\\u003E\\u003C/span\\u003E\\uFEFF\\u003C/span\\u003E\\u003C/p\\u003E\&quot;,\&quot;questionTypeId\&quot;:6,\&quot;isCorrect\&quot;:false,\&quot;answers\&quot;:[{\&quot;answerId\&quot;:13020,\&quot;content\&quot;:\&quot;Indonexia\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:3,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13040,\&quot;content\&quot;:\&quot;Th\\u00E1i Lan\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:4,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13039,\&quot;content\&quot;:\&quot;L\\u00E0o\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13038,\&quot;content\&quot;:\&quot;Vi\\u1EC7t Nam\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;}]}]},{\&quot;id\&quot;:3416,\&quot;questionGroupContent\&quot;:\&quot;\&quot;,\&quot;isQuestionGroup\&quot;:false,\&quot;isMark\&quot;:false,\&quot;listQuestions\&quot;:[{\&quot;questionId\&quot;:3416,\&quot;unitPoint\&quot;:1,\&quot;content\&quot;:\&quot;\\u003Cp\\u003E\\u0110i\\u1EC1n v\\u00E0o ch\\u1ED7 tr\\u1ED1ng:\\u003C/p\\u003E\\u003Cp\\u003EM\\u1ED9t con \\u003Cspan class=\\u0022answer-select\\u0022 contenteditable=\\u0022false\\u0022\\u003E\\u003C/span\\u003E \\u0111au c\\u1EA3 \\u003Cspan class=\\u0022answer-select\\u0022 contenteditable=\\u0022false\\u0022\\u003E\\u003C/span\\u003E b\\u1ECF c\\u1ECF\\u003C/p\\u003E\&quot;,\&quot;questionTypeId\&quot;:7,\&quot;isCorrect\&quot;:false,\&quot;answers\&quot;:[{\&quot;answerId\&quot;:13037,\&quot;content\&quot;:\&quot;nh\\u00E0\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13036,\&quot;content\&quot;:\&quot;G\\u00E0\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13035,\&quot;content\&quot;:\&quot;B\\u00F2\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13034,\&quot;content\&quot;:\&quot;t\\u00E0u\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13033,\&quot;content\&quot;:\&quot;ng\\u1EF1a\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13032,\&quot;content\&quot;:\&quot;chu\\u1ED3ng\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;}]}]},{\&quot;id\&quot;:3415,\&quot;questionGroupContent\&quot;:\&quot;\&quot;,\&quot;isQuestionGroup\&quot;:false,\&quot;isMark\&quot;:false,\&quot;listQuestions\&quot;:[{\&quot;questionId\&quot;:3415,\&quot;unitPoint\&quot;:1,\&quot;content\&quot;:\&quot;\\u003Cp\\u003EGh\\u00E9p c\\u00E1c b\\u00E3i bi\\u1EC3n \\u1EE9ng v\\u1EDBi t\\u1EC9nh th\\u00E0nh\\u003C/p\\u003E\&quot;,\&quot;questionTypeId\&quot;:8,\&quot;isCorrect\&quot;:false,\&quot;answers\&quot;:[{\&quot;answerId\&quot;:13041,\&quot;content\&quot;:\&quot;C\\u1EEDa Vi\\u1EC7t\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13031,\&quot;content\&quot;:\&quot;Qu\\u1EA3ng Tr\\u1ECB\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:4,\&quot;isTrue\&quot;:true,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13029,\&quot;content\&quot;:\&quot;C\\u1EEDa L\\u00F2\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13028,\&quot;content\&quot;:\&quot;B\\u00E3i Ch\\u00E1y\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:3,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13027,\&quot;content\&quot;:\&quot;Qu\\u1EA3ng Ninh\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:true,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13026,\&quot;content\&quot;:\&quot;S\\u1EA7m S\\u01A1n\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:4,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13025,\&quot;content\&quot;:\&quot;Thanh H\\u00F3a\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:3,\&quot;isTrue\&quot;:true,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13024,\&quot;content\&quot;:\&quot;Ngh\\u1EC7 An\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:true,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;}]}]},{\&quot;id\&quot;:3414,\&quot;questionGroupContent\&quot;:\&quot;\&quot;,\&quot;isQuestionGroup\&quot;:false,\&quot;isMark\&quot;:false,\&quot;listQuestions\&quot;:[{\&quot;questionId\&quot;:3414,\&quot;unitPoint\&quot;:1,\&quot;content\&quot;:\&quot;\\u003Cp\\u003ENh\\u00E0 v\\u0103n Kim Dung (Trung Qu\\u1ED1c) n\\u1ED5i ti\\u1EBFng v\\u1EDBi th\\u1EC3 lo\\u1EA1i v\\u0103n h\\u1ECDc g\\u00EC?\\u003C/p\\u003E\\u003Cp\\u003E\\u003Cspan class=\\u0022answer-underline\\u0022 answer-position=\\u00220\\u0022\\u003E\\uFEFF\\u003Cspan contenteditable=\\u0022false\\u0022\\u003EA. Ki\\u1EBFm Hi\\u1EC7p\\u003C/span\\u003E\\uFEFF\\u003C/span\\u003E\\u003C/p\\u003E\\u003Cp\\u003E\\u003Cspan class=\\u0022answer-underline\\u0022 answer-position=\\u00221\\u0022\\u003E\\uFEFF\\u003Cspan contenteditable=\\u0022false\\u0022\\u003EB. Truy\\u1EC7n trinh th\\u00E1m\\u003C/span\\u003E\\uFEFF\\u003C/span\\u003E\\u003C/p\\u003E\\u003Cp\\u003E\\u003Cspan class=\\u0022answer-underline\\u0022 answer-position=\\u00222\\u0022\\u003E\\uFEFF\\u003Cspan contenteditable=\\u0022false\\u0022\\u003EC. Truy\\u1EC7n t\\u00ECnh\\u003C/span\\u003E\\uFEFF\\u003C/span\\u003E\\u003C/p\\u003E\\u003Cp\\u003E\\u003Cspan class=\\u0022answer-underline\\u0022\\u003E\\uFEFF\\u003Cspan contenteditable=\\u0022false\\u0022\\u003ED. S\\u1EED thi\\u003C/span\\u003E\\uFEFF\\u003C/span\\u003E\\u003C/p\\u003E\&quot;,\&quot;questionTypeId\&quot;:3,\&quot;isCorrect\&quot;:false,\&quot;answers\&quot;:[{\&quot;answerId\&quot;:13023,\&quot;content\&quot;:\&quot;\\uFEFFA. Ki\\u1EBFm Hi\\u1EC7p\\uFEFF\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:1,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13022,\&quot;content\&quot;:\&quot;\\uFEFFB. Truy\\u1EC7n trinh th\\u00E1m\\uFEFF\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:2,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:13021,\&quot;content\&quot;:\&quot;\\uFEFFC. Truy\\u1EC7n t\\u00ECnh\\uFEFF\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:3,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;},{\&quot;answerId\&quot;:12996,\&quot;content\&quot;:\&quot;\\uFEFFD. S\\u1EED thi\\uFEFF\&quot;,\&quot;answerValue\&quot;:null,\&quot;answeredValue\&quot;:null,\&quot;position\&quot;:4,\&quot;isTrue\&quot;:false,\&quot;isCorrect\&quot;:null,\&quot;essayContent\&quot;:\&quot;\&quot;}]}]}]&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://sf.ectapps.net/api/File/exam/445637cc-c9be-4cc2-b7e4-8e984b900069</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="0" ct="15" ts="1624940763664" s="true" lb="-660" rc="204" rm="No Content" tn="" dt="" de="" by="212" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:01 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: authorization
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: authorization
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/exam/get-pagging-student-exam-logs?testId=33&amp;examineeId=373&amp;shiftId=0&amp;pageSize=10&amp;pageNumber=1</java.net.URL>
+</httpSample>
+<httpSample t="120" it="0" lt="119" ct="13" ts="1624940763696" s="true" lb="-661" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="240" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:02 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 49
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:[],&quot;errors&quot;:null,&quot;message&quot;:&quot;&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/exam/get-pagging-student-exam-logs?testId=33&amp;examineeId=373&amp;shiftId=0&amp;pageSize=10&amp;pageNumber=1</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="0" ct="14" ts="1624940763861" s="true" lb="-663" rc="204" rm="No Content" tn="" dt="" de="" by="212" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:02 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: authorization
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: authorization
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/myexam/get-supervisor-test-exam?id=33</java.net.URL>
+</httpSample>
+<httpSample t="135" it="0" lt="135" ct="15" ts="1624940763891" s="true" lb="-664" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="242" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:02 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 51
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:[34],&quot;errors&quot;:null,&quot;message&quot;:&quot;&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/myexam/get-supervisor-test-exam?id=33</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="0" ct="13" ts="1624940764166" s="true" lb="-666" rc="204" rm="No Content" tn="" dt="" de="" by="212" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:02 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: authorization
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: authorization
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/user/get-info-user-by-ids?userIds[]=34&amp;pageSize=1&amp;pageNumber=1</java.net.URL>
+</httpSample>
+<httpSample t="148" it="0" lt="148" ct="20" ts="1624940764202" s="true" lb="-668" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="397" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:03 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 205
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:{&quot;pageLists&quot;:[{&quot;avatar&quot;:&quot;&quot;,&quot;code&quot;:&quot;Tuanvu@123&quot;,&quot;email&quot;:&quot;tuanvu@gmail.com&quot;,&quot;id&quot;:34,&quot;firstName&quot;:&quot;Vũ&quot;,&quot;lastName&quot;:&quot;Tuấn&quot;,&quot;userName&quot;:&quot;Tuanvu&quot;}],&quot;totalRecord&quot;:1},&quot;errors&quot;:null,&quot;message&quot;:&quot;&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/user/get-info-user-by-ids?userIds%5B%5D=34&amp;pageSize=1&amp;pageNumber=1</java.net.URL>
+</httpSample>
+<httpSample t="500" it="0" lt="30" ct="13" ts="1624940764168" s="true" lb="-667" rc="206" rm="Partial Content" tn="" dt="bin" de="" by="2559084" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 206 Partial Content
+Server: nginx/1.16.1
+Date: Tue, 29 Jun 2021 04:26:03 GMT
+Content-Type: audio/mpeg
+Content-Length: 2558790
+Connection: close
+Content-Range: bytes 0-2558789/2558790
+Last-Modified: Fri, 11 Jun 2021 07:16:20 GMT
+Accept-Ranges: bytes
+ETag: &quot;1d75e91ad113146&quot;
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Host: sf.ectapps.net
+Range: bytes=0-
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: (bin)</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://sf.ectapps.net/testDevice/testAudio.mp3</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="0" ct="14" ts="1624940766202" s="true" lb="-671" rc="204" rm="No Content" tn="" dt="" de="" by="227" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:04 GMT
+Server: Kestrel
+Access-Control-Allow-Headers: authorization,content-type
+Access-Control-Allow-Methods: PATCH
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Access-Control-Request-Headers: authorization,content-type
+Access-Control-Request-Method: PATCH
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/examtest/start-exam</java.net.URL>
+</httpSample>
+<httpSample t="130" it="0" lt="130" ct="14" ts="1624940766267" s="true" lb="-672" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="259" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:05 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Content-Length: 68
+Access-Control-Allow-Origin: *
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8080
+Content-Type: application/json;charset=utf-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: application/json, text/plain, */*
+Content-Length: 18
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;data&quot;:true,&quot;errors&quot;:null,&quot;message&quot;:&quot;USR_UpdateSuccess&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PATCH</method>
+  <queryString class="java.lang.String">{&quot;examineeId&quot;:373}</queryString>
+  <java.net.URL>http://cloudlms.top:8080/api/examtest/start-exam</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="0" ct="14" ts="1624940766413" s="true" lb="-673" rc="204" rm="No Content" tn="" dt="" de="" by="305" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:05 GMT
+Server: Kestrel
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: x-requested-with,x-signalr-user-agent
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Origin: http://kinhdoanh.cloudlms.top
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8015
+Access-Control-Request-Headers: x-requested-with,x-signalr-user-agent
+Access-Control-Request-Method: POST
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8015/hubs/examhub/negotiate?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA&amp;negotiateVersion=1</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="16" ts="1624940766445" s="true" lb="-674" rc="200" rm="OK" tn="" dt="text" de="" by="501" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-L4VTP1U">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Jun 2021 04:26:05 GMT
+Content-Type: application/json
+Server: Kestrel
+Content-Length: 256
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: http://kinhdoanh.cloudlms.top
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://kinhdoanh.cloudlms.top/
+X-SignalR-User-Agent: Microsoft SignalR/5.0 (5.0.6; Unknown OS; Browser; Unknown Runtime Version)
+Accept-Language: en-US,en;q=0.5
+Origin: http://kinhdoanh.cloudlms.top
+Host: cloudlms.top:8015
+X-Requested-With: XMLHttpRequest
+Content-Type: text/plain;charset=UTF-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: */*
+Content-Length: 0
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;negotiateVersion&quot;:1,&quot;connectionId&quot;:&quot;QvCP4fW0woGPRGf_hY8iRA&quot;,&quot;connectionToken&quot;:&quot;d6GqiSwZKOZPb1aByJHAMw&quot;,&quot;availableTransports&quot;:[{&quot;transport&quot;:&quot;WebSockets&quot;,&quot;transferFormats&quot;:[&quot;Text&quot;,&quot;Binary&quot;]},{&quot;transport&quot;:&quot;LongPolling&quot;,&quot;transferFormats&quot;:[&quot;Text&quot;,&quot;Binary&quot;]}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://cloudlms.top:8015/hubs/examhub/negotiate?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IkMxNUMxQTZBRUI0QkNDMzE1MUQ3MTE0RTYwNzBGOTE3IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjQ5NDA3NDYsImV4cCI6MTYyNDk0NDM0NiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTAxLjE1Mjo4MDExIiwiY2xpZW50X2lkIjoiaWRlbnRpdHlTZXJ2aWNlIiwic3ViIjoiNTcxIiwiYXV0aF90aW1lIjoxNjI0OTQwNzQ1LCJpZHAiOiJsb2NhbCIsIk1hbmFnZW1lbnRJZCI6IjIiLCJPd25lcklkIjoiMiIsIkJyYW5jaCI6IiIsIlBvcnRhbCI6Imtpbmhkb2FuaCIsIlBvcnRhbElkIjoiMiIsIkRvbWFpbiI6ImNsb3VkbG1zLnRvcCIsIkxhbmd1YWdlQ29kZSI6ImVuLXVzIiwiVG90YWxDb3Vyc2UiOiIxMDAiLCJUb3RhbFVzZXIiOiIxMDAiLCJNZW1vcnkiOiIyIiwiRmlyc3ROYW1lIjoiVGjDrSBTaW5oIiwiTGFzdE5hbWUiOiJQaOG6oW0iLCJVc2VyQ29kZSI6IjAwNTQ3IiwiQ29udGVudExlYXJuIjoiMyIsIkRvbWFpbk1hbmFnaW5nIjoiMSIsIkZlYXR1cmVNYW5hZ2luZyI6IjEiLCJMZWFybkhpc3RvcnkiOiIzIiwiTGVhcm5Qcm9jZXNzIjoiMyIsIkxlYXJuUm9hZG1hcCI6IjMiLCJNeUFjaGlldmVtZW50IjoiMyIsIk15Q2FsZW5kZXIiOiIzIiwiTXlDZXJ0aWZpY2F0aW9uIjoiMyIsIk15Q29uZmlnIjoiMyIsIk15Q291cnNlIjoiMyIsIk15RXhhbU1hbmFnaW5nIjoiMyIsIk15Rm9ydW0iOiIzIiwiTXlMaWJyYXJ5IjoiMyIsIk15UHJvZmlsZSI6IjMiLCJNeVN1cnZleSI6IjMiLCJQYXlyb2xsU2NhbGVNYW5hZ2luZyI6IjEiLCJQb3J0YWxNYW5hZ2luZyI6IjEiLCJVc2VyVGl0bGVNYW5hZ2luZyI6IjEiLCJqdGkiOiI4NkQ4RTA2RURBRTc4MjdCNzAxNTBCMTg2NDk0RUQxMyIsImlhdCI6MTYyNDk0MDc0Niwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.mnfsArvhhakuv9-Gwl9W_NCu6-O-tU97ml9dnIrVOwcv5NI4-Q-su-XShh32oTDGMPWHFnCYxnL2APc9yCEIRIwcrLZiMmyWhyGph5s05LDKxV87RwFEjywaHyZTPePzsZrI1_NegRjgaTWI-zjXOaQ5ad2hOmsSHtWS2ScRpEJzaVtNbpYWXUOfD02C7O3IZSaHa-vNvhJLiqcnY181wIANKaH5jPKwrIfoilrAy0CnJCNgDOCLrOK5K6Xmrw1La4ePRw9DH19cZHdMCA9A4w1vJfRup26Z282kAfeh8w--4AWprbk3bEciolXVL9bjj7kgPDJkBp-3kMJc04fkaA&amp;negotiateVersion=1</java.net.URL>
+</httpSample>
+
+</testResults>
